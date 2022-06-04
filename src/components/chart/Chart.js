@@ -7,20 +7,10 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-
-const data = [
-  { name: "January", Total: 1200 },
-  { name: "February", Total: 2100 },
-  { name: "March", Total: 800 },
-  { name: "April", Total: 1600 },
-  { name: "May", Total: 900 },
-  { name: "June", Total: 1700 },
-];
-
-const Chart = ({ aspect, title }) => {
+ 
+const Chart = ({ aspect, data  }) => {
   return (
-    <div className="chart">
-      <div className="title">{title}</div>
+  
       <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
           width={730}
@@ -45,8 +35,7 @@ const Chart = ({ aspect, title }) => {
             fill="url(#total)"
           />
         </AreaChart>
-      </ResponsiveContainer>
-    </div>
+      </ResponsiveContainer> 
   );
 };
 

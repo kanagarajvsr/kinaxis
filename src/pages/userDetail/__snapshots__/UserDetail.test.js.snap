@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetail render Update Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="users"
+  >
+    <div
+      class="top"
+    >
+      <div
+        class="left"
+      >
+        <div
+          class="editButton"
+        >
+          Edit
+        </div>
+        <h1
+          class="title"
+        >
+          Information
+        </h1>
+        <div
+          class="item"
+        >
+          <img
+            alt=""
+            class="itemImg"
+            src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          />
+          <div
+            class="details"
+          >
+            <h1
+              class="itemTitle"
+            >
+              Jane Doe
+            </h1>
+            <div
+              class="detailItem"
+            >
+              <span
+                class="itemKey"
+              >
+                Email:
+              </span>
+              <span
+                class="itemValue"
+              >
+                janedoe@gmail.com
+              </span>
+            </div>
+            <div
+              class="detailItem"
+            >
+              <span
+                class="itemKey"
+              >
+                Phone:
+              </span>
+              <span
+                class="itemValue"
+              >
+                +1 2345 67 89
+              </span>
+            </div>
+            <div
+              class="detailItem"
+            >
+              <span
+                class="itemKey"
+              >
+                Address:
+              </span>
+              <span
+                class="itemValue"
+              >
+                Elton St. 234 Garden Yd. NewYork
+              </span>
+            </div>
+            <div
+              class="detailItem"
+            >
+              <span
+                class="itemKey"
+              >
+                Country:
+              </span>
+              <span
+                class="itemValue"
+              >
+                USA
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

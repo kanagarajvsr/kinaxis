@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Featured render Update Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="featured"
+  >
+    <div
+      class="top"
+    >
+      <h1
+        class="title"
+      >
+        Total Revenue
+      </h1>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+        data-testid="MoreVertIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        />
+      </svg>
+    </div>
+    <div
+      class="bottom"
+    >
+      <div
+        class="featuredChart"
+      >
+        <svg
+          class="CircularProgressbar "
+          data-test-id="CircularProgressbar"
+          viewBox="0 0 100 100"
+        >
+          <path
+            class="CircularProgressbar-trail"
+            d="
+      M 50,50
+      m 0,-47.5
+      a 47.5,47.5 0 1 1 0,95
+      a 47.5,47.5 0 1 1 0,-95
+    "
+            fill-opacity="0"
+            stroke-width="5"
+            style="stroke-dasharray: 298.45130209103036px 298.45130209103036px; stroke-dashoffset: 0px;"
+          />
+          <path
+            class="CircularProgressbar-path"
+            d="
+      M 50,50
+      m 0,-47.5
+      a 47.5,47.5 0 1 1 0,95
+      a 47.5,47.5 0 1 1 0,-95
+    "
+            fill-opacity="0"
+            stroke-width="5"
+            style="stroke-dasharray: 298.45130209103036px 298.45130209103036px; stroke-dashoffset: 89.53539062730913px;"
+          />
+          <text
+            class="CircularProgressbar-text"
+            x="50"
+            y="50"
+          >
+            70%
+          </text>
+        </svg>
+      </div>
+      <p
+        class="title"
+      >
+        Total sales made today
+      </p>
+      <p
+        class="amount"
+      >
+        Rs: 420
+      </p>
+      <p
+        class="desc"
+      >
+        Previous transactions processing. Last payments may not be included.
+      </p>
+      <div
+        class="summary"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="itemTitle"
+          >
+            Target
+          </div>
+          <div
+            class="itemResult negative"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+              data-testid="KeyboardArrowDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              />
+            </svg>
+            <div
+              class="resultAmount"
+            >
+              Rs: 12.4k
+            </div>
+          </div>
+        </div>
+        <div
+          class="item"
+        >
+          <div
+            class="itemTitle"
+          >
+            Last Week
+          </div>
+          <div
+            class="itemResult positive"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+              data-testid="KeyboardArrowUpOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+              />
+            </svg>
+            <div
+              class="resultAmount"
+            >
+              Rs: 12.4k
+            </div>
+          </div>
+        </div>
+        <div
+          class="item"
+        >
+          <div
+            class="itemTitle"
+          >
+            Last Month
+          </div>
+          <div
+            class="itemResult positive"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+              data-testid="KeyboardArrowUpOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+              />
+            </svg>
+            <div
+              class="resultAmount"
+            >
+              Rs: 12.4k
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
